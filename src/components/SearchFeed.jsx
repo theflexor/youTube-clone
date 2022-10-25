@@ -1,8 +1,7 @@
-import { Box, Stack, Typography } from "@mui/material";
+import {  Stack, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchFromApi } from "../utils/FetchFromApi";
-import { SideBar } from "./SideBar";
 import { Videos } from "./Videos";
 
 export const SearchFeed = () => {

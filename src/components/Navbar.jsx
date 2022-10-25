@@ -1,5 +1,5 @@
 import { Stack } from "@mui/system";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../utils/contants";
 import { SearchInput } from "./SearchInput";
